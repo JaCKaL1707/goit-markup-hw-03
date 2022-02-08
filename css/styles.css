@@ -1,0 +1,224 @@
+:root {
+   --main-background-color : #ffffff;
+  --logo:#000000 ;
+  --first-part-logo-color: #2196f3;
+  --second-logo-part-optional :#ffffff;
+  --main-box-section-background :#2f303a;
+  --main-header-color :#ffffff;
+  --header-color: #212121;
+  --paragraph-color: #757575;
+  --anchors-accent-color: #2196f3;
+  --buttons-background-color :#2196f3;
+  --buttons-color :#ffffff;
+   --team-section-background-color :#f5f4fa;
+  --footer-background-color :#2f303a;
+  --address-color:#ffffff;
+  --portfolio-buttons-background-color :#f5f4fa;
+  --portfolio-buttons-color :#212121;
+
+
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color:var(--main-background-color);
+}
+/* header styles */
+.nav-section {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo);
+  text-decoration: none;
+}
+.logo-part {
+  color: var(--first-part-logo-color);
+}
+.list {
+  list-style: none; 
+}
+.anchors {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--header-color);
+  text-decoration: none;
+}
+
+.anchors:hover,
+.anchors:focus {
+  color: var(--anchors-accent-color);
+}
+.mailto,
+.callto {
+  color: var(--paragraph-color);
+}
+
+/* main section */
+.main-box {
+ 
+}
+.main-box-section {
+  background-color: var(--main-box-section-background);
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--main-header-color);
+}
+.order-buttom {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color:var(--buttons-background-color);
+  color: var(--buttons-color);
+  border: none;
+}
+/* disription section */
+.discription-section {
+  margin-top: 94px;
+}
+.item-head {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.item-data {
+  line-height: 1.71;
+  
+  color:var(--paragraph-color);
+}
+/* our-doing-section */
+.our-doing-section {
+  margin-top: 94px;
+}
+.our-doing-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  
+  color:var(--header-color);
+}
+.doing-pic {
+  width: 370px;
+  height: 294px;
+}
+/* our-team-section */
+.our-team-section {
+  margin-top: 94px;
+  background-color: var(--team-section-background-color);
+}
+.our-team-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  
+  color: var(--header-color);
+}
+.worker-full-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+ 
+  color: var(--header-color);
+}
+.worker-position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  
+  color:var(--paragraph-color);
+}
+/* footer-section */
+.footer-section {
+  margin-top: 94px;
+  background-color:var(--footer-background-color);
+}
+.second-logo-part {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  
+  color: var(--second-logo-part-optional);
+}
+.address {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1.71;
+  color:var(--address-color);
+}
+.footer-mailto,
+.footer-callto {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address:hover,
+.address:focus {
+  color: var(--anchors-accent-color);
+}
+.footer-callto:hover,
+.footer-callto:focus {
+  color:var(--anchors-accent-color);
+}
+.footer-mailto:hover,
+.footer-mailto:focus {
+  color: var(--anchors-accent-color);
+}
+/* portfolio-section-of-styles */
+.main-box-portfolio {
+  margin-top: 94px;
+}
+
+/* buttons-section */
+.buttons-bar-section {
+}
+.buttons {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--portfolio-buttons-background-color);
+  color: var(--portfolio-buttons-color);
+  border: none;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color:var(--buttons-background-color);
+  color: var(--buttons-color);
+}
+.product-list {
+  list-style: none;
+  text-decoration: none;
+}
+/* products-section */
+.product-picture {
+  width: 370px;
+  height: 294px;
+}
+.product-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+  
+}
+.product-class {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--paragraph-color);
+  
