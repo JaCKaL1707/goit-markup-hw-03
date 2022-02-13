@@ -25,7 +25,12 @@ body {
   background-color:var(--main-background-color);
 }
 /* header styles */
+ul,li,h1,h2,h3,p {
+  margin: 0px;
+  padding: 0px;
+}
 .nav-section {
+  
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -34,6 +39,7 @@ body {
   line-height: 1.19;
   color: var(--logo);
   text-decoration: none;
+  
 }
 .logo-part {
   color: var(--first-part-logo-color);
@@ -46,6 +52,7 @@ body {
   letter-spacing: 0.02em;
   color:var(--header-color);
   text-decoration: none;
+  
 }
 
 .anchors:hover,
@@ -61,8 +68,18 @@ body {
 .main-box {
  
 }
+/* centralize container  */
+.container {
+outline: 2px solid tomato;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 215px;
+margin-right: 215px;
+}
 .main-box-section {
   background-color: var(--main-box-section-background);
+  
 }
 .main-header {
   font-weight: 900;
@@ -70,6 +87,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--main-header-color);
+  padding-bottom: 30px;
 }
 .order-buttom {
   font-weight: bold;
@@ -79,7 +97,12 @@ body {
   letter-spacing: 0.06em;
   background-color:var(--buttons-background-color);
   color: var(--buttons-color);
+  display: inline-block;
   border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 32px;
+  
 }
 /* disription section */
 .discription-section {
@@ -90,10 +113,10 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--header-color);
+  padding-bottom: 10px;
 }
 .item-data {
   line-height: 1.71;
-  
   color:var(--paragraph-color);
 }
 /* our-doing-section */
@@ -104,12 +127,16 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
+  padding-bottom: 50px;
   
   color:var(--header-color);
 }
 .doing-pic {
   width: 370px;
   height: 294px;
+ 
+}
+.team-pic {
 }
 /* our-team-section */
 .our-team-section {
@@ -120,14 +147,25 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
+  padding-top: 90px;
+  padding-right: 668px;
+  padding-bottom: 50px;
+  padding-left: 668px;
   
   color: var(--header-color);
+}
+.our-team-list {
+
+  padding-bottom: 94px;
 }
 .worker-full-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
- 
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  padding-left: 60px;
   color: var(--header-color);
 }
 .worker-position {
@@ -135,13 +173,21 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+  padding-top: 10px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+  padding-left: 70px;
   
   color:var(--paragraph-color);
 }
 /* footer-section */
 .footer-section {
-  margin-top: 94px;
+ 
   background-color:var(--footer-background-color);
+}
+.footer-logo {
+  display: inline-block;
+  padding-top: 60px;
 }
 .second-logo-part {
   font-weight: bold;
@@ -156,6 +202,9 @@ body {
   text-decoration: none;
   line-height: 1.71;
   color:var(--address-color);
+  display: inline-block;
+  padding-top: 20px;
+
 }
 .footer-mailto,
 .footer-callto {
@@ -164,6 +213,8 @@ body {
   text-decoration: none;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding-top: 9px;
 }
 .address:hover,
 .address:focus {
@@ -185,6 +236,10 @@ body {
 /* buttons-section */
 .buttons-bar-section {
 }
+.product-nav-list {
+  display: inline-block;
+  padding-bottom: 50px;
+}
 .buttons {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -194,6 +249,10 @@ body {
   background-color: var(--portfolio-buttons-background-color);
   color: var(--portfolio-buttons-color);
   border: none;
+  display: inline-block;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+padding: 6px 22px;
 }
 .buttons:hover,
 .buttons:focus {
@@ -203,11 +262,13 @@ body {
 .product-list {
   list-style: none;
   text-decoration: none;
+  padding-bottom: 94px;
 }
 /* products-section */
 .product-picture {
   width: 370px;
   height: 294px;
+  padding-bottom: 20px;
 }
 .product-name {
   font-weight: bold;
@@ -215,10 +276,16 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-color);
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 4px;
   
 }
 .product-class {
   font-size: 16px;
   line-height: 1.87;
   color: var(--paragraph-color);
+  padding: right 24px; ;
+  padding: bottom 20px; ;
+  padding-left: 24px;
   

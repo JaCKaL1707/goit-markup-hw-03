@@ -11,11 +11,14 @@
       rel="stylesheet"
     />
     <title lang="en">Web studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
+    <!-- Навигация -->
     <header class="nav-section">
+      <div class="container">
       <nav>
         <a href="./index.html" class="logo"
           ><span class="logo-part">Web</span>Studio</a
@@ -46,46 +49,55 @@
           >
         </li>
       </ul>
+      </div>
     </header>
     <main class="main-box">
+      <!-- Секция Герой -->
       <section class="main-box-section">
+        <div class="container">
         <h1 class="main-header">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="order-buttom">Заказать услугу</button>
+        </div>
       </section>
+      <!-- Список преимуществ -->
+      <div class="container">
       <section class="discription-section">
         <ul class="discription-list list">
           <li class="discription-list-item">
-            <h3 class="item-head">Внимание к деталям</h3>
+            <h2 class="item-head">Внимание к деталям</h2>
             <p class="item-data">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="discription-list-item">
-            <h3 class="item-head">Пунктуальность</h3>
+            <h2 class="item-head">Пунктуальность</h2>
             <p class="item-data">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="discription-list-item">
-            <h3 class="item-head">Планирование</h3>
+            <h2 class="item-head">Планирование</h2>
             <p class="item-data">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="discription-list-item">
-            <h3 class="item-head">Современные технологии</h3>
+            <h2 class="item-head">Современные технологии</h2>
             <p class="item-data">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
+      <!-- Секция наших занятий -->
       <section class="our-doing-section">
+        <div class="container">
         <h2 class="our-doing-header">Чем мы занимаемся</h2>
         <ul class="doing-pic-list list">
           <li class="doing-pic">
@@ -113,8 +125,11 @@
             />
           </li>
         </ul>
+        </div>
       </section>
+      <!-- Секция сотрудников -->
       <section class="our-team-section">
+        <div class="container">
         <h2 class="our-team-header">Наша команда</h2>
         <ul class="our-team-list list">
           <li class="team-pic">
@@ -158,10 +173,13 @@
             <p class="worker-position">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
+    <!-- Подвал -->
     <footer class="footer-section">
-      <a lang="en" href="./index.html" class="logo"
+      <div class="container">
+      <a lang="en" href="./index.html" class="logo footer-logo"  
         ><span class="logo-part">Web</span
         ><span class="second-logo-part">Studio</span></a
       >
@@ -187,6 +205,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
