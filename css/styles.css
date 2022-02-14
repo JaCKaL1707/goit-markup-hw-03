@@ -104,7 +104,6 @@ ul,h1,h2,h3,p {
 }
 /* centralize container  */
 .container {
-outline: 2px solid tomato;
 width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
