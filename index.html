@@ -12,7 +12,7 @@
     />
     <title lang="en">Web studio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles-version-2.css" />
   </head>
 
   <body>
@@ -52,39 +52,41 @@
     </header>
     <main class="main-box">
       <!-- Секция Герой -->
-      <section class="main-box-section">
+      <section class="section main-box-section">
         <div class="container">
         <h1 class="main-header">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="order-buttom">Заказать услугу</button>
         </div>
       </section>
       <!-- Список преимуществ -->
-      <div class="container">
-      <section class="discription-section">
+      
+      <section class="section discription-section">
+        <div class="container">
+        <h2 hidden>Преимущества компании</h2>
         <ul class="discription-list list">
           <li class="discription-list-item">
-            <h2 class="item-head">Внимание к деталям</h2>
+            <h3 class="item-head">Внимание к деталям</h3>
             <p class="item-data">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="discription-list-item">
-            <h2 class="item-head">Пунктуальность</h2>
+            <h3 class="item-head">Пунктуальность</h3>
             <p class="item-data">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="discription-list-item">
-            <h2 class="item-head">Планирование</h2>
+            <h3 class="item-head">Планирование</h3>
             <p class="item-data">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="discription-list-item">
-            <h2 class="item-head">Современные технологии</h2>
+            <h3 class="item-head">Современные технологии</h3>
             <p class="item-data">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -95,13 +97,13 @@
       </section>
 
       <!-- Секция наших занятий -->
-      <section class="our-doing-section">
+      <section class="section our-doing-section">
         <div class="container">
         <h2 class="our-doing-header">Чем мы занимаемся</h2>
         <ul class="doing-pic-list list">
           <li class="doing-pic">
             <img
-              src="./img/duty1.jpg"
+              src="./img/duty1.jpg" class="index-image"
               alt="Человек работает за компьютером"
               width="370"
               height="294"
@@ -109,7 +111,7 @@
           </li>
           <li class="doing-pic">
             <img
-              src="./img/duty2.jpg"
+              src="./img/duty2.jpg" class="index-image"
               alt="Человек с телефоном за компьютером"
               width="370"
               height="294"
@@ -117,7 +119,7 @@
           </li>
           <li class="doing-pic">
             <img
-              src="./img/duty3.jpg"
+              src="./img/duty3.jpg" class="index-image" 
               alt="Человек с планшетом за компьютером"
               width="370"
               height="294"
@@ -127,49 +129,57 @@
         </div>
       </section>
       <!-- Секция сотрудников -->
-      <section class="our-team-section">
+      <section class="section our-team-section">
         <div class="container">
         <h2 class="our-team-header">Наша команда</h2>
         <ul class="our-team-list list">
           <li class="team-pic">
             <img
-              src="./img/teampic1.jpg"
+              src="./img/teampic1.jpg" class="index-image"
               alt="Мужчина в очках"
               width="270"
               height="260"
             />
+            <div class="workers">
             <h3 class="worker-full-name">Игорь Демьяненко</h3>
             <p class="worker-position">Product Designer</p>
+        </div>
           </li>
           <li class="team-pic">
             <img
-              src="./img/teampic2.jpg"
+              src="./img/teampic2.jpg" class="index-image"
               alt="Женщина в очках"
               width="270"
               height="260"
             />
+            <div class="workers">
             <h3 class="worker-full-name">Ольга Репина</h3>
             <p class="worker-position">Frontend Developer</p>
+          </div>
           </li>
           <li class="team-pic">
             <img
-              src="./img/teampic3.jpg"
+              src="./img/teampic3.jpg" class="index-image"
               alt="Мужчина в очках"
               width="270"
               height="260"
             />
+            <div class="workers">
             <h3 class="worker-full-name">Николай Тарасов</h3>
             <p class="worker-position">Marketing</p>
+            </div>
           </li>
           <li class="team-pic">
             <img
-              src="./img/teampic4.jpg"
+              src="./img/teampic4.jpg" class="index-image"
               alt="Улыбающийся мужчина"
               width="270"
               height="260"
             />
+            <div class="workers">
             <h3 class="worker-full-name">Михаил Ермаков</h3>
             <p class="worker-position">UI Designer</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -180,7 +190,7 @@
       <div class="container">
         <a lang="en" href="./index.html" class="logo footer-logo"><span class="logo-part">Web</span><span
             class="second-logo-part">Studio</span></a>
-        <address class="">
+        <address class="footer-address">
           <ul class="footer-contacts-list list">
             <li class="footer-contacts-list-item">
               <a href="https://goo.gl/maps/WwCp9qjnden3q9Xp6" target="_blank" class="address">г. Киев, пр-т Леси Украинки,
