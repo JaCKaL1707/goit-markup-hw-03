@@ -127,9 +127,11 @@ p {
   letter-spacing: 0.06em;
   color: var(--main-header-color);
   text-transform: uppercase;
-  padding-left: 270px;
-  padding-right: 270px;
+  width: 696px;
+  margin-top: 0px;
+  margin-right: auto;
   margin-bottom: 30px;
+  margin-left: auto;
 }
 .order-buttom {
   font-weight: bold;
@@ -172,6 +174,7 @@ p {
 }
 /* our-doing-section */
 .our-doing-section {
+  padding-top: 0px;
 }
 .doing-pic-list {
   display: flex;
@@ -188,7 +191,6 @@ p {
 }
 .doing-pic {
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 .index-image {
   display: block;
@@ -209,8 +211,8 @@ p {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 50px;
+
+  margin-bottom: 50px;
 
   color: var(--header-color);
 }
@@ -220,13 +222,13 @@ p {
 .our-team-list {
   display: flex;
   text-align: center;
-  margin-bottom: 94px;
 }
 .team-pic {
   display: block;
   max-width: 100%;
   height: auto;
   margin-right: 30px;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -266,6 +268,9 @@ p {
   color: var(--second-logo-part-optional);
 }
 
+.footer-address {
+  margin-top: 20px;
+}
 .address {
   font-style: normal;
   font-weight: normal;
@@ -273,7 +278,6 @@ p {
   line-height: 1.71;
   color: var(--address-color);
   display: inline-block;
-  margin-top: 20px;
 }
 .footer-mailto,
 .footer-callto {
@@ -303,12 +307,13 @@ p {
 
 /* buttons-section */
 .buttons-bar-section {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .product-nav-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 34px;
 }
 .buttons {
   font-family: Roboto, sans-serif;
@@ -319,7 +324,7 @@ p {
   background-color: var(--portfolio-buttons-background-color);
   color: var(--portfolio-buttons-color);
   border: none;
-
+  border-radius: 4px;
   padding: 6px 22px;
   margin-right: 8px;
 }
@@ -349,13 +354,21 @@ p {
   margin-bottom: 0px;
 }
 /* products-section */
+.portfolio-anchors {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+  text-decoration: none;
+}
 .product-picture {
   display: block;
   max-width: 100%;
   height: auto;
 }
 .portfolio-product-list {
+  padding-top: 20px;
   padding-right: 24px;
+  padding-bottom: 4px;
   padding-left: 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
